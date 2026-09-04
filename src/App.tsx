@@ -24,7 +24,7 @@ function App() {
       <header className="bg-zinc-950/90">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 sm:py-5">
           <h1 className="text-xl font-bold sm:text-2xl">
-            RAYSSA<span className="text-purple-500">3D</span>
+            RC<span className="text-purple-500">3D</span>
           </h1>
 
           <button

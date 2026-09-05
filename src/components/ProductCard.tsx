@@ -30,11 +30,22 @@ function ProductCard({ product }: ProductCardProps) {
           {product.description}
         </p>
 
-        <div className="mt-5 flex items-center justify-between">
+        <div className="mt-5 flex items-center gap-2">
 
           <button className="rounded-lg bg-purple-600 px-4 py-2 text-sm font-semibold transition hover:bg-purple-500">
             Ver produto
           </button>
+
+          <a
+            href={`https://wa.me/5511942862162?text=${encodeURIComponent(
+              `Olá! Tenho interesse em comprar o produto ${product.name}.`,
+            )}`}
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-lg border border-green-500/40 px-4 py-2 text-sm font-semibold text-green-400 transition hover:bg-green-500/10"
+          >
+            Comprar
+          </a>
 
         </div>
 

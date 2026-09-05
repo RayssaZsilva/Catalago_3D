@@ -32,10 +32,6 @@ function ProductCard({ product }: ProductCardProps) {
 
         <div className="mt-5 flex items-center justify-between">
 
-          <strong className="text-xl text-white">
-            R$ {product.price.toFixed(2).replace(".", ",")}
-          </strong>
-
           <button className="rounded-lg bg-purple-600 px-4 py-2 text-sm font-semibold transition hover:bg-purple-500">
             Ver produto
           </button>

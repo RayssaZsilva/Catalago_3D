@@ -53,7 +53,9 @@ function App() {
             </a>
 
             <a
-              href="#contato"
+              href="https://wa.me/5511942862162"
+              target="_blank"
+              rel="noreferrer"
               className="text-sm text-zinc-300 transition hover:text-white"
             >
               Contato
@@ -80,7 +82,9 @@ function App() {
             </a>
 
             <a
-              href="#contato"
+              href="https://wa.me/5511942862162"
+              target="_blank"
+              rel="noreferrer"
               onClick={closeMenu}
               className="text-sm text-zinc-300 hover:text-white"
             >
@@ -141,6 +145,7 @@ function App() {
           <p className="text-sm text-zinc-500">
             Impressão 3D • Criatividade • Personalização
           </p>
+          
         </div>
       </footer>
     </div>
